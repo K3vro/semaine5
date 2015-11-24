@@ -1,24 +1,47 @@
-H3{
-    color: blue;
-    background-color:gray;
+header{
+	background-image: url("http://www.pixeden.com/media/k2/galleries/112/001-subtle-light-pattern-background-texture.jpg");
+	background-attachment:fixed;
+	clear:both;
 }
 li{
     list-style-type:square;
-    padding:11px;
+    padding:8px;
+    margin:15px;
 }
-ul{
-     margin:20px;
-     padding:10px;
+.conteneur{
+	width:100%;
+	max-width:960px;
+	padding:10px;
+	margin:15px;
+	margin:auto;
 }
-body{
-    padding:10px;
-    border: 2px solid black;
-    background-color:white;
+.en_tete{
+	display:inline-block;
+	vertical-align:middle;
+	margin:15px;
+}
+.colonne{
+	display:inline-block;
+	margin:10px;
+	width:30%;
+	vertical-align:top;
+}
+main{
+	background-image:url("http://www.pixeden.com/media/k2/galleries/112/001-subtle-light-pattern-background-texture.jpg");
+	background-attachment:fixed;
+	clear:both;
+}
+iframe{
+	width:50%;
+	vertical-align:middle;
+}
+.contacte{
+	display:inline-block;
+	margin-left:30px;
+	vertical-align:middle;
 }
 footer{
-   font-size:12px
-}
-div{
-    width: 100%;
-    margin:10px;
+	background-image:url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png");
+	background-attachment:fixed;
+	clear:both;
 }
